@@ -5,6 +5,15 @@
 
 공부하면서 알게된 사항
 
+### 변수명과 함수명 명명 법칙
+Function names should be lowercase, with words separated by underscores as necessary to improve readability.
+- 함수명은 소문자로 만들어야 되며, 가독성을 위해 '_'로 분리한다.
+
+Variable names follow the same convention as function names.
+- 변수명도 함수명과 동일한 규칙을 갖는다.
+
+https://peps.python.org/pep-0008/#function-and-variable-names
+
 ### condition = (a, b) in [(조건, 조건), (조건, 조건), ...]
 - 파이썬은 조건문을 밖에서도 쓸 수 있다.
 - 위의 내용은 (a, b)가 in 우측에 있는 조건에 맞는가에 대한 조건을 변수로 선언해놓은것이다.
@@ -24,3 +33,6 @@
 - 첫번째 인자에는 집계함수가 들어가며 대표적인 예를 들자면
   - lambda(x, y: x + y, iter) 같은 함수가 들어간다.
 - 두번째 인자에는 연산을 처리할 iter 가 들어간다.
+
+### dictionary
+- Java의 HashMap과 비슷하며, key값과 Value를 가짐
