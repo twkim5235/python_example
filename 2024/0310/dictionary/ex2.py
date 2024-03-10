@@ -2,7 +2,7 @@ def print_mental_disorders(disorders):
     disorder_dictionary = dict()
     splits_disorders = disorders.splitlines()
 
-    condtion = lambda x: ord(x) >= 65 and ord(x) <= 90 or ord(x) >= 97 and ord(x) <= 122
+    condtion = lambda x: 65 <= ord(x) <= 90 or 97 <= ord(x) <= 122
 
     for splits_disorder in splits_disorders:
         key = ''
